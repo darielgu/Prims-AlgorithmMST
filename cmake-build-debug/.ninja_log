@@ -1,0 +1,23 @@
+# ninja log v5
+1	989	1733084724307760543	CMakeFiles/LastName_FirstNamePrim.dir/main.cpp.o	b178f7105c7cfe72
+2	1300	1733084724617995439	CMakeFiles/LastName_FirstNamePrim.dir/graph.cpp.o	dd95111379b025d
+1300	1376	1733084724698584115	LastName_FirstNamePrim	2323fe56bc5b810d
+9	748	1733086883186917265	CMakeFiles/LastName_FirstNamePrim.dir/graph.cpp.o	dd95111379b025d
+748	811	1733086883254964384	LastName_FirstNamePrim	2323fe56bc5b810d
+7	762	1733087204698003869	CMakeFiles/LastName_FirstNamePrim.dir/graph.cpp.o	dd95111379b025d
+762	821	1733087204761480496	LastName_FirstNamePrim	2323fe56bc5b810d
+6	717	1733087246251820724	CMakeFiles/LastName_FirstNamePrim.dir/graph.cpp.o	dd95111379b025d
+717	772	1733087246310423052	LastName_FirstNamePrim	2323fe56bc5b810d
+5	717	1733087279076607404	CMakeFiles/LastName_FirstNamePrim.dir/graph.cpp.o	dd95111379b025d
+717	773	1733087279136955958	LastName_FirstNamePrim	2323fe56bc5b810d
+6	669	1733087418885959362	CMakeFiles/LastName_FirstNamePrim.dir/main.cpp.o	b178f7105c7cfe72
+669	729	1733087418950139203	LastName_FirstNamePrim	2323fe56bc5b810d
+6	650	1733090847878224236	CMakeFiles/LastName_FirstNamePrim.dir/main.cpp.o	b178f7105c7cfe72
+8	760	1733090847986076037	CMakeFiles/LastName_FirstNamePrim.dir/graph.cpp.o	dd95111379b025d
+760	843	1733090848075735281	LastName_FirstNamePrim	2323fe56bc5b810d
+6	749	1733090929573505714	CMakeFiles/LastName_FirstNamePrim.dir/graph.cpp.o	dd95111379b025d
+749	806	1733090929636221893	LastName_FirstNamePrim	2323fe56bc5b810d
+12	835	1733095454328219484	CMakeFiles/LastName_FirstNamePrim.dir/graph.cpp.o	dd95111379b025d
+835	895	1733095454393426180	LastName_FirstNamePrim	2323fe56bc5b810d
+5	512	1733095466418073648	CMakeFiles/LastName_FirstNamePrim.dir/graph.cpp.o	dd95111379b025d
+512	555	1733095466464337300	LastName_FirstNamePrim	2323fe56bc5b810d

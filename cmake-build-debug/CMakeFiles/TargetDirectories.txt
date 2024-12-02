@@ -1,0 +1,3 @@
+/Users/darielgutierrez/Desktop/CS 210/LastName_FirstNamePrim/cmake-build-debug/CMakeFiles/LastName_FirstNamePrim.dir
+/Users/darielgutierrez/Desktop/CS 210/LastName_FirstNamePrim/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/darielgutierrez/Desktop/CS 210/LastName_FirstNamePrim/cmake-build-debug/CMakeFiles/rebuild_cache.dir
