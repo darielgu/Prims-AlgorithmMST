@@ -1,6 +1,65 @@
 #include "graph.h"
 #include <fstream>
 #include <iostream>
+//Heap Struct
+struct Node{
+    int vertex;
+    int weight;
+};
+//Creating minHeap class
+class minHeap{
+private:
+    std::vector<Node> heap;
+    int size;
+    void heapifyUp(int index){
+        while(index>0) {
+            int parent = (index - 1) / 2;
+            if (heap[index].weight < heap[parent].weight) {
+                std::swap(heap[index], heap[parent]);
+                index = parent;
+            } else {
+                break;
+            }
+        }
+    }
+    void heapifyDown(int index){
+        int smallest = index;
+        int left = 2 * index +1;
+        int right = 2 * index +2;
+        if (left<size && heap[left].weight < heap[smallest].weight ){
+            smallest = left;
+        }
+        if(right<size && heap[right].weight < heap[smallest].weight){
+            smallest = right;
+        }
+        if(smallest != index){
+            std::swap(heap[index], heap[smallest]);
+            heapifyDown(index);
+        }
+    }
+public:
+    minHeap(int numNodes){
+        heap = std::vector<Node>(numNodes);
+        size = 0;
+    }
+    bool isEmpty(){
+        return size == 0;
+    }
+    void insert(int vertex, int weight){
+        heap[size].vertex = vertex;
+        heap[size].weight = weight;
+        heapifyDown(size);
+        size++;
+    }
+    Node removeMin(){
+        if(size=0){
+            return {-1,INT_MAX};
+        }
+        Node root = heap[0];
+        Node last = heap[size];
+
+    }
+};
 
 // Load the graph from a file
 bool Graph::loadGraphFromFile(const std::string& filename) {
